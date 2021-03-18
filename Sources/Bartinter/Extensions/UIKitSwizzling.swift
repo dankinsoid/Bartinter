@@ -51,7 +51,7 @@ extension UIView {
 }
 
 public extension Bartinter {
-    static var isSwizzlingEnabled: Bool = true
+    static var isSwizzlingEnabled: Bool = false
 
     static var isSwizzlingPerformed: Bool = false
     static func swizzleIfNeeded() {

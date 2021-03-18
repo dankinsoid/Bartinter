@@ -29,10 +29,10 @@ Set ViewController's `updatesStatusBarAppearanceAutomatically = true`
 That's it.
 
 ### Swizzling
-By default, bartinter swizzles a couple methods for your convenience. (see: `UIKitSwizzling.swift`)
-If you are not ok with method swizzling, you can disable it by following line: 
+Bartinter swizzles a couple methods for your convenience. (see: `UIKitSwizzling.swift`)
+If you are ok with method swizzling, you can enable it by following line: 
 ```swift
-Bartinter.isSwizzlingEnabled = false
+Bartinter.isSwizzlingEnabled = true
 ```
 Without swizzling you need to do some things manually: 
 
